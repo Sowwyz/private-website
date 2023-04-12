@@ -1,0 +1,324 @@
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+:root {
+    --blue: #4392f1;
+    --grey: #fafafa;
+    --font1: "Oswald";
+    --font2: "Montserrat";
+    --font3: "Roboto";
+    --horizontal_margin: 7.5%;
+}
+/* Sowwyz */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+/* Sowwyz */
+#hero {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1)), url(../images/chungus.gif);
+    background-position: center center;
+    background-size: cover;
+}
+
+#playlists {
+    padding: 100px 200px 0px 200px;
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+    #playliststitle {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+    
+        #playlists #playliststitle h2 {
+            font-family: var(--font1);
+            font-size: 30px;
+            color: white;
+            margin-bottom: 10px;
+        }
+
+        #playlists #playliststitle p, #playlists #playliststitle a {
+            font-family: var(--font3);
+            color: white;
+        }
+
+        #playlists #playliststitle li {
+            font-family: var(--font3);
+            font-size: 15px;
+        }
+
+        #playlists #playliststitle a {
+            color: var(--blue);
+            font-family: var(--font1);
+            font-size: 25px;
+        }
+
+            #playlists #playliststitle a:hover {
+                text-decoration: underline;
+            }
+/* Sowwyz */
+    #playlistsplayer {
+        display: flex;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 50%;
+    }
+/* Sowwyz */
+    @media (max-width: 800px) {
+        #playlists {
+            display: block;
+            padding: 100px 30px 0px 30px;
+        }
+
+        #playlists #playliststitle {
+            width: 100%;
+        }
+        #playlists #playliststitle h2 {
+            font-size: 150%;
+        }
+        #playlists #playliststitle p {
+            font-size: 80%;
+        }
+        #playlists #playliststitle li {
+            font-size: 80%;
+        }
+        #playlists #playliststitle a {
+            font-size: 120%;
+        }
+
+        #playlists #playlistsplayer {
+            width: 100%;
+        }
+    }
+/* Sowwyz */
+#books{
+    padding: 100px 200px 0px 200px;
+    display: flex;
+    background-color: black;
+}
+    /* Sowwyz */
+    #books #bookstitle{
+        width: 50%;
+        margin-bottom: 50px;
+        padding-right: 20px;
+    }
+
+        #books #bookstitle h2 {
+            font-family: var(--font1);
+            font-size: 30px;
+            color: white;
+            margin-bottom: 10px;
+        }
+
+        #books #bookstitle p {
+            font-family: var(--font3);
+            color: white;
+        }
+/* Sowwyz */
+    .demo-container {
+        display: flex;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 50%;
+    }
+/* Sowwyz */
+        .carousel {
+            overflow-x: auto;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+            height: 400px;
+        }
+
+            .carousel .carousel__item {
+                display: inline-flex;
+                vertical-align: top;
+            }
+
+                .carousel .carousel__item .demo-content {
+                    width: 200px;
+                    height: 400px;
+                }
+
+                    .demo-content img {
+                        width: 80%;
+                        margin-left: 50%;
+                        transform: translateX(-50%);
+                        margin-top: 15%;
+                    }
+
+                    .demo-content h1 {
+                        font-family: var(--font1);
+                        font-size: 110%;
+                        width: 80%;
+                        margin-left: 50%;
+                        transform: translateX(-50%);
+                        color: white;
+                        white-space: pre-wrap;
+                    }
+                    .demo-content h2 {
+                        font-family: var(--font2);
+                        font-size: 70%;
+                        width: 80%;
+                        margin-left: 50%;
+                        transform: translateX(-50%);
+                        color: white;
+                        white-space: pre-wrap;
+                    }
+                    .demo-content dt {
+                        font-family: var(--font2);
+                        font-size: 70%;
+                        color: var(--blue);
+                        width: 80%;
+                        margin-left: 50%;
+                        transform: translateX(-50%);
+                    }
+                
+                #actual_reading {
+                    background-color: white;
+                }
+
+                    #actual_reading h1, #actual_reading h2{
+                        color: black;
+                    }
+/* Sowwyz */
+    @media (max-width: 800px) {
+        #books {
+            display: block;
+            padding: 100px 30px 0px 30px;
+        }
+
+        #books #bookstitle {
+            width: 100%;
+        }
+        #books #bookstitle h2 {
+            font-size: 150%;
+        }
+        #books #bookstitle p {
+            font-size: 80%;
+        }
+
+        #books .demo-container {
+            width: 100%;
+        }
+    }
+/* Sowwyz */
+#shorts {
+    padding: 100px 200px 0px 200px;
+    background-color: black;
+    color: white;
+    font-family: var(--font3);
+}
+
+    #shorts .year {
+        display: block;
+    }
+
+    #shorts h2 {
+        margin-bottom: 10px;
+        font-family: var(--font1);
+        font-size: 30px;
+        color: white;
+        
+    }
+    /* Sowwyz */
+    #shorts .list {
+        display: flex;
+        width: 100%;
+    }
+
+    #shorts li {
+        margin-bottom: 20px;
+    }
+
+        #shorts li dt {
+            color: var(--blue);
+            margin-top: 5px;
+        }
+
+        #shorts li img, #shorts li video {
+            width: 25%;
+            filter: contrast(90%) grayscale(10%);
+        }
+
+    #shorts li a {
+        color: var(--blue);
+    }
+
+    #shorts a:hover {
+        text-decoration: underline;
+    }
+
+    @media (max-width: 800px) {
+        #shorts {
+            padding: 100px 30px 0px 30px;
+        }
+            
+            #shorts .year {
+                display: block;
+            }
+
+            #shorts h2 {
+                width: 100%;
+            }
+
+            #shorts .list {
+                margin-left: 0;
+                width: 100%;
+            }
+
+                #shorts li img, #shorts li video {
+                    width: 100%;
+                    filter: contrast(90%) grayscale(10%);
+                }
+
+    }
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */

@@ -1,0 +1,250 @@
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+
+html {
+    scroll-behavior: smooth;
+}
+/* Sowwyz */
+:root {
+    --blue: #4392f1;
+    --grey: #fafafa;
+    --font1: "Oswald";
+    --font2: "Montserrat";
+    --font3: "Roboto";
+}
+/* Sowwyz */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+/* Sowwyz */
+#hero {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1)), url(../images/sowwyz.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+#actual {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    background: black;
+    color: white;
+}
+    /* Sowwyz */
+
+    #actual #actual-title {
+        line-height: 25px;
+        margin-left: 200px;
+        width: 50%;
+    }
+
+        #actual #actual-title h2 {
+            font-family: var(--font1);
+        } 
+
+    #actual #actual-list {
+        margin-right: 200px;
+        text-align: justify; 
+    }
+        /* Sowwyz */
+        #actual #actual-list li {
+            padding-bottom: 25px;
+        }
+            /* Sowwyz */
+            #actual #actual-list li h3 {
+                font-family: var(--font2);
+            }
+
+                #actual #actual-list li h3 a {
+                    color: white;
+                    font-size: 150%;
+                    transition: 0.2s;
+                }
+
+                #actual #actual-list li h3 a:hover {
+                    color: var(--blue);
+                    text-decoration: underline;
+                    transition: 0.2s
+                }
+            
+            #actual #actual-list li h4 {
+                font-family: var(--font2);
+                color: var(--blue);
+            }
+
+            #actual #actual-list li p {
+                font-family: var(--font3);
+                margin-top: 5px;
+            }
+    /* Sowwyz */
+    #actual #actual-list {
+        width: 50%;
+    }
+
+    @media (max-width: 800px) {
+        #actual {
+            display: block;
+        }
+        
+        #actual #actual-title {
+            width: 80%;
+            margin-bottom: 20px;
+            margin-left: 30px;
+        }
+        
+        #actual #actual-list {
+            width: 100%;
+        }
+
+            #actual #actual-list ul {
+                font-size: 80%;
+                padding: 0 30px;
+            }
+    }
+/* Sowwyz */
+
+#resume {
+    margin: 80px 200px;
+}
+/* Sowwyz */
+
+@media (max-width: 800px) {
+    #resume {
+        margin: 80px 30px;
+        text-align: justify;
+    }
+}
+/* Sowwyz */
+    ol, ul#others-list {
+        list-style-type: none;
+    }
+/* Sowwyz */
+        #resume h2 {
+            font-family: var(--font1);
+            margin-top: 30px;
+            margin-bottom: 20px;
+            border-bottom: grey 1px solid;
+        }
+/* Sowwyz */
+        #resume h3 {
+            font-family: var(--font2);
+            text-align: left;
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+
+        #resume h4 {
+            font-family: var(--font3);
+            font-size: 90%;
+            margin-bottom: 10px;
+            display: flex;
+            text-align: left;
+            justify-content: space-between;
+        }
+/* Sowwyz */
+    .time {
+        display: flex;
+        text-align: right;
+        color: grey;
+        font-size: 80%;
+    }
+        /* Sowwyz */
+        .time dt {
+            margin-inline: 5px;
+        }
+
+    .end {
+        text-align: right;
+    }
+/* Sowwyz */
+    .description {
+        margin-bottom: 30px;
+        text-align: justify;
+        font-family: var(--font3);
+        font-size: 80%;
+    }
+/* Sowwyz */
+
+    #resume li p {
+        font-family: var(--font3);
+        font-size: 0.9em;
+        text-align: justify;
+    }
+
+    .final-lists li {
+        margin: 10px 0;
+        list-style: none;
+        font-family: var(--font3);
+        font-size: 0.9em;
+    }
+/* Sowwyz */
+    #resume a {
+        color: var(--blue)
+    }
+        /* Sowwyz */
+    #resume a:hover {
+        text-decoration: underline;
+    }
+
+
+
+
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
+/* Sowwyz */
